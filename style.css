@@ -41,7 +41,7 @@
 
   .section-tittle {
       font-size: 4rem;
-      font-weight: 100;
+      font-weight: 300;
       color: black;
       margin-bottom: 10px;
       text-transform: uppercase;
@@ -77,12 +77,12 @@
       font-size: 3rem;
       text-transform: uppercase;
       color: white;
-      font-weight: 300;
+
   }
 
   .brand h1 span {
       color: crimson;
-      font-weight: 300;
+
   }
 
   /*Header Section */
@@ -98,7 +98,7 @@
   #header .header {
       min-height: 8vh;
       background-color: rgba(31, 30, 30, 0.24);
-      transition: .3s ease background;
+      transition: .3s ease background-color;
   }
 
   .header .nav-bar {
@@ -115,7 +115,7 @@
       list-style: none;
       position:absolute;
       background-color: rgb(31, 30, 30);
-      width: 100vh;
+      width: 100vw;
       height: 100vh;
       left:100%;
       top: 0;
@@ -125,7 +125,7 @@
       align-items: center;
       z-index: 1;
       overflow: hidden;
-      transition: .3s ease left;
+      transition: .5s ease left;
   }
   #header .nav-list ul.active{
     left: 0%;
@@ -569,7 +569,7 @@ bottom: 0;
   }
 
   #contect .icon {
-      width: 60px;
+      width: 70px;
       margin: 0 auto;
       margin-bottom: 10px;
 
@@ -680,19 +680,19 @@ bottom: 0;
   /* End Keyframe */
 
   /* Media Query for Tablet */
-  @media only screen and (min-width:760px) {
+  @media only screen and (min-width:768px) {
       .cta {
           font-size: 2.5rem;
           padding: 20px 60px;
       }
 
       h1 .section-tittle {
-          font-size: 5rem;
+          font-size: 6rem;
       }
 
       /* Hero */
       #hero h1 {
-          font-size: 6rem;
+          font-size: 7rem;
       }
 
       /*End Hero */
@@ -712,7 +712,7 @@ bottom: 0;
           flex-direction: row;
           height: 400px;
           margin: 0;
-          width: 90%;
+          width: 100%;
           border-radius: 0;
       }
 
