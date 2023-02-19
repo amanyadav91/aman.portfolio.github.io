@@ -536,7 +536,7 @@ bottom: 0;
   /* About Section */
 
 
-  /* Contect Section */
+  /* contact Section */
   #contact .contact {
       flex-direction: column;
       max-width: 1200px;
@@ -587,7 +587,7 @@ bottom: 0;
       line-height: 2rem;
   }
 
-  /* End Contect Section */
+  /* End contact Section */
 
 
   /* Footer */
@@ -763,7 +763,7 @@ bottom: 0;
       /* End About */
 
 
-      /* Contect */
+      /* contact */
       #contact .contact {
           flex-direction: column;
           padding: 100px 0;
@@ -802,7 +802,7 @@ bottom: 0;
           padding-left: 20px;
       }
 
-      /* End Contect */
+      /* End contact */
   }
 
   /* End  Media Query for Tablet */
